@@ -1,9 +1,176 @@
-#title{
-    background-color:#ff4c68;
+body {
+    font-family: "montserrat";
 }
-.matadure{
-    font-family:montserrat-black,sans-serif;
-    font-size: 3rem;
-    line-height:1.5;
 
+h1,h2,h3,h4,h5,h6{
+    font-family: montserrat;
+    font-size: 3.5rem;
+    font-weight: 900;
 }
+
+i:hover {
+    color: #ff4c68;
+}
+
+/* Title section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.heading-title{
+    line-height: 1.5;
+}
+.title-image {
+    width:20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right:25%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+/* Navbar section */
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "montserrat-light";
+}
+
+/* Feature section */
+#features {
+    text-align: center;
+    background-color:#fff;
+    position: relative;
+    
+}
+
+.features {
+    padding: 7% 10%;
+    width: 100%;
+}
+
+
+.features-par {
+    color: #8f8f8f;
+}
+
+.logo {
+    color: #ef8172;
+    font-size: 4.5rem;
+    margin: 1.5rem;
+}
+
+.col-lg-4 {
+    margin: 10% auto;
+}
+
+/* Testimonial Section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-heading{
+    line-height: 3.5rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+/* press Section */
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+/* pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-heading{
+    line-height:3rem;
+}
+#cta{
+    background-color:#ff4c68;
+    text-align:center;
+}
+
+/* Footer Section */
+#footer{
+    padding:5%;
+    text-align: center;
+}
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.bbtn{
+    width:100%;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* call for action section */
+
+.footer{
+    padding:15% 5%;
+}
+.h3-footer{
+    font-family:montserrat;
+    font-weight:bold;
+    color:#fff;
+    font-size:5rem;
+}
+.dwl{
+    margin:5% 2%;
+}
+.footer-icon{
+    margin:2%;
+    font-size:2rem;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        position: relative;
+        transform:rotate(0);
+        width:50%;
+        text-align: center;
+    }
+}
+   
